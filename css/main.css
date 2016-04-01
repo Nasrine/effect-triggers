@@ -1,5 +1,10 @@
 html {
+  box-sizing: border-box;
   background-color: #e2e2e2;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -32,9 +37,13 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 200px;
-
   background-color: limegreen;
   opacity: 0;
+  transition:
+}
+.js-box-animate {
+
+  animation-direction: left;
 }
 
 .diamond {
