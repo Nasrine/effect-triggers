@@ -37,6 +37,7 @@ div {
   opacity: 0;
   transition:all .5s linear;
 }
+
 .js-box-show-hide {
   opacity: 1;
 }
@@ -79,6 +80,7 @@ div {
   color: darkgoldenrod;
   text-align: center;
 }
+
 .js-btn-collapse {
   max-height: 0;
 }
